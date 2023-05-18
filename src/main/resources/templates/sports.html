@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Sports</title>
+</head>
+<body>
+<h1>Sports List</h1>
+<table>
+    <thead>
+    <tr>
+        <th>ID</th>
+        <th>Name</th>
+    </tr>
+    </thead>
+    <tbody>
+    {{#sportslist}}
+    <tr>
+        <td>{{id}}</td>
+        <td>{{name}}</td>
+    </tr>
+    {{/sportslist}}
+    </tbody>
+</table>
+</body>
+</html>
